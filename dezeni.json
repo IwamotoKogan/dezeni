@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "Dezen 1",
+        "image": "dezeni/kuhinja6.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Dezen 2",
+        "image": "dezeni/kuhinja7.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Dezen 3",
+        "image": "dezeni/kuhinja6.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Dezen 4",
+        "image": "dezeni/kuhinja7.jpg"
+    }
+]

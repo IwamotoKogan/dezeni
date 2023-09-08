@@ -1,0 +1,58 @@
+/* Stilizacija za pop-up prozor */
+#pattern-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.pattern-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    max-width: 80%;
+    max-height: 80%;
+    overflow-y: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.pattern {
+    text-align: center;
+    cursor: pointer;
+}
+
+.pattern img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Stilizacija za zatvaranje pop-up prozora */
+#close-popup {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/* Dodatni stil za odabrani dezen ispod dugmeta */
+#selected-pattern {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#selected-image {
+    max-width: 100%;
+    height: auto;
+}
